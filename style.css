@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Itim&family=Love+Light&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Mea+Culpa&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    border:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner section */
+.banner{
+    width:100%;
+    height:100vh;
+    background-image: url(https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?cs=srgb&dl=pexels-lumn-167699.jpg&fm=jpg);
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+}
+/* header bar */
+.header{
+    background-color:transparent;
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+
+
+}
+
+.logo{
+    background-color:black;
+    color:rgb(8, 231, 8);
+    margin-left: 40px;
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #FF69B4;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.lt{
+    background-color: whitesmoke;
+    color:black
+}
+.lt:hover{
+    cursor:pointer;
+    background-color: black;
+    color:rgb(38, 231, 38);
+}
+
+
+.navbar{
+    background-color:transparent;
+    margin-right:40px;
+    width:50%;
+    color:black;
+
+}
+
+.navitems{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlik{
+    padding:10px;
+    transition: 50ms;
+    border-radius: 10px;
+}
+
+.navlik:hover{
+    border:2px solid #F15461 ;
+    background-color: black;
+    color:rgb(22, 221, 22);
+    cursor:pointer;
+}
+
+
+/* banner details */
+.bannerdetails{
+    width:100%;
+    background-color:transparent;
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.badge{
+    background-color: wheat;
+    color:black;
+    width:max-content;
+    padding: 10px;
+    border-radius: 10px;
+    border:2px solid #F15461;
+    font-family: 'Poppins', sans-serif;
+
+}
+.slog{
+    font-size:100px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    padding:20px 30px;
+    border:2px solid #F15461;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    background-color: black;
+    color:rgb(31, 241, 31);  
+}
+
+.booking{
+    width:80%;
+    padding:10px 0px;
+    background-color:rgb(246, 243, 243,0.5);
+    display:flex;
+    column-gap:15px;
+    justify-content: space-evenly;
+
+}
+
+.inp{
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    margin-left:10px;
+}
+input{
+    border:3px solid black;
+    border-radius: 5%;
+}
+
+/* about us */
+.aboutus{
+    width:100%;
+    padding:50px 0px;
+    background-color:black;
+    font-family: 'Mea Culpa', cursive;
+    font-size:30px;
+    word-spacing: 20px;
+    display:flex;
+    justify-content: center;
+    color:rgb(17, 229, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span{
+    font-family: 'Mea Culpa', cursive;
+
+}
+
+/* rooms css */
+.rooms{
+    width:100%;
+    padding:50px 0px;
+    background-color:rgba(124, 226, 124, 0.5);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roomarea{
+    width:80%;
+    padding:20px 0px;
+    background-color:rgba(24, 1, 26, 0.5);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.room{
+    width:30%;
+    background-color:rgb(17, 17, 17,0.7);
+    margin-left:10px;
+}
+
+.room-img{
+    width:100%;
+    /* background-color: white;*/
+    overflow: hidden;
+}
+
+.room-image{
+    width:100%;
+}
+
+.btn1{
+    padding:10px 20px;
+    border:2px solid #F15461;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    background-color: black;
+    color:rgb(31, 241, 31); 
+
+}
+
+.btn1:hover{
+    cursor:pointer;
+    background-color: black;
+    color:white;
+    border:2px solid rgb(27, 228, 27);
+    
+}
+
+.roomd{
+    color:rgb(242, 246, 242);
+    padding:10px;
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* subscribe css */
+
+.subscribe{
+    width:100%;
+    padding:50px 5%;
+    background-color: #F15461;
+}
+
+.subtext{
+    width:30%;
+    padding:20px;
+    background-color:black;
+}
+
+/* food css */
+.food{
+    width:100%;
+    height:90vh;
+    padding: 50px opx;
+    background-color:#ffffff;
+    background-image: url(https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZCUyMHdoaXRlfGVufDB8fDB8fHww);
+    background-repeat:no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Mea Culpa', 'cursive';
+}
+
+.foodd{
+    width:50%;
+    padding:50px 0px;
+    background-color: rgb(245, 241, 241,0.2);
+    margin-right: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fsectiontitle{
+    font-size:45px;
+    color:rgb(31, 204, 31);
+    font-family: 'Mea Culpa', 'cursive';
+    margin:0px 20px;
+    
+
+}
+
+
+.fdesc{
+    font-size: 40px;
+    color:rgb(1, 23, 1);
+    font-family: 'Mea Culpa', 'cursive';
+    margin:0px 20px;
+    
+}
+
+
+/* gallary css */
+
+.gallary{
+    width:100%;
+    padding:50px 0%;
+    background-color:black;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left:20px;
+    row-gap: 30px;
+     
+}
+
+.galimg{
+    width:30%;
+    cursor:pointer;
+    transition: 30ms;
+    opacity:0.5;
+}
+
+.galimg:hover{
+    opacity:1;
+}
